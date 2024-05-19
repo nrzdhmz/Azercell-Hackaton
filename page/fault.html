@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/scss/index.css">
+  <title>Fault</title>
+</head>
+<body>
+  <header>
+    <h1>Faults</h1>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./dataset.html">Tarifs</a></li>
+        <li><a href="./fault.html">Faults</a></li>
+        <li><a href="./alert.html">Alert</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="Table">
+    <div class="charts margintop">
+      <div id="piechart_3d" style="width: 40%; height: 380px;"></div>
+      <canvas class="faultChart" id="myChart" style="width:60%;max-width:600px"></canvas>
+    </div>
+    <div class="tables">
+      <div id="tableContent">
+        <h3>Currently Running Processes</h3>
+        <div class="logEventTable">
+          <div class="tableComponent CustomerID">
+            <div class="head">CustomerID</div>
+          </div>
+          <div class="tableComponent deviceName">
+            <div class="head">deviceName</div>
+          </div>
+          <div class="tableComponent faultType">
+            <div  class="head">faultType</div>
+          </div>
+          <div class="tableComponent dateTime">
+            <div class="head">dateTime</div>
+          </div>
+          <div class="tableComponent severity">
+            <div  class="head">severity</div>
+          </div>
+          <div class="tableComponent rootCause">
+            <div class="head">rootCause</div>
+          </div>
+          <div class="tableComponent status">
+            <div class="head">status</div>
+          </div>
+          <div class="tableComponent impact">
+            <div class="head">impact</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+  <script type="module" src="../assets/js/main.js"></script>
+</body>
+</html>

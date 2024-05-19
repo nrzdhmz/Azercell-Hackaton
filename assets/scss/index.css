@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #364062, #1F2940);
+  padding: 10px;
+}
+
+.tables {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+#myChart {
+  margin: 20px;
+}
+
+.charts {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.Table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+.Table h1 {
+  font-size: 36px;
+}
+
+#myChart {
+  margin-top: 0px;
+  padding: 0 20px;
+  background-color: #FFFFFF;
+  height: 380px;
+}
+
+#tableContent,
+#faultContent {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  padding: 10px;
+}
+#tableContent h3,
+#faultContent h3 {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+#tableContent .logEventTable,
+#faultContent .logEventTable {
+  display: flex;
+  gap: 5px;
+}
+#tableContent .logEventTable .tableComponent,
+#faultContent .logEventTable .tableComponent {
+  display: flex;
+  flex-direction: column;
+}
+#tableContent .logEventTable .tableComponent .info,
+#faultContent .logEventTable .tableComponent .info {
+  font-size: 12px;
+  padding: 5px;
+  white-space: nowrap;
+}
+#tableContent .logEventTable .tableComponent .info:hover,
+#faultContent .logEventTable .tableComponent .info:hover {
+  background-color: rgb(228, 228, 228);
+}
+#tableContent .logEventTable .tableComponent .head,
+#faultContent .logEventTable .tableComponent .head {
+  font-size: 12px;
+  padding: 5px;
+  background-color: #F5F5F5;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  color: rgb(216, 216, 216);
+}
+header ul {
+  gap: 15px;
+  display: flex;
+}
+header ul a {
+  padding: 8px;
+  border-radius: 5px;
+  background-color: rgb(216, 216, 216);
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+
+.hero {
+  margin-top: 50px;
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  height: 500px;
+}
+.hero .aside {
+  width: 13%;
+  background-color: white;
+}
+.hero .aside input {
+  padding-left: 10px;
+  outline: none;
+}
+.hero .aside .list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.hero .aside .list div {
+  padding: 5px;
+  display: flex;
+  background-color: white;
+}
+.hero .aside .list div:hover {
+  background-color: rgb(213, 213, 213);
+}
+.hero .aside .list div label {
+  padding-left: 5px;
+  width: 100%;
+}
+.hero .aside .search {
+  width: 100%;
+  background-color: #dcdcdc;
+  border: none;
+  height: 40px;
+}
+.hero .left {
+  background-color: #F2F3F8;
+}
+.hero .dashboard {
+  width: 65%;
+  background-color: white;
+}
+.hero .dashboard .dashboardContent {
+  display: flex;
+}
+.hero .dashboard .dashboardContent .boxes {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.hero .dashboard .dashboardContent .boxes .box {
+  width: 20px;
+  height: 20px;
+}
+.hero .dashboard .dashboardContent .boxes .green {
+  background-color: #008000;
+}
+.hero .dashboard .dashboardContent .boxes .blue {
+  background-color: #1F1FFF;
+}
+.hero .dashboard .dashboardContent .boxes .red {
+  background-color: #FF0000;
+}
+.hero .dashboard .dashboardTop {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  background-color: #dcdcdc;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.margintop {
+  margin-top: 50px;
+}/*# sourceMappingURL=index.css.map */

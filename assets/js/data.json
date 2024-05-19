@@ -1,0 +1,8320 @@
+[
+  {
+    "CustomerID": 1001,
+    "ContractType": "Postpaid",
+    "MARDollars": 75,
+    "TenureMonths": 36,
+    "DataUsageGB": 15,
+    "Churn": "Yes",
+    "packet": "GencOl-6" ,
+    "minutes": "256",
+    "balance": 3.00,
+    "autoRenewal": true,
+    "deviceName": "Cell Tower CT-202",
+    "faultType": "Signal Degradation",
+    "dateTime": "2024-05-19", 
+    "severity": "Medium",
+    "impact": "Reduced network coverage, dropped calls",
+    "status": "Active",
+    "estimatedRepairTime": "N/A", 
+    "rootCause": "N/A (investigating weather conditions)", 
+    "notes": "Demo fault for illustration"
+  },
+  {
+    "CustomerID": 1002,
+    "ContractType": "Postpaid",
+    "MARDollars": 75,
+    "TenureMonths": 36,
+    "DataUsageGB": 15,
+    "Churn": "Yes",
+    "packet": "GencOl-6" ,
+    "minutes": "256",
+    "balance": 3.00,
+    "autoRenewal": true,
+    "deviceName": "Cell Tower CT-202",
+    "faultType": "Signal Degradation",
+    "dateTime": "2024-05-19", 
+    "severity": "Medium",
+    "impact": "Reduced network coverage, dropped calls",
+    "status": "Active",
+    "estimatedRepairTime": "N/A", 
+    "rootCause": "N/A (investigating weather conditions)", 
+    "notes": "Demo fault for illustration"
+  },
+  {
+    "CustomerID": 1003,
+    "ContractType": "Prepaid",
+    "MARDollars": 15,
+    "TenureMonths": 2,
+    "DataUsageGB": 1,
+    "Churn": "Yes",
+    "packet": "GencOl-6" ,
+    "minutes": "256",
+    "balance": 4.50,
+    "autoRenewal": true,
+    "deviceName": "Switch SW-305",
+    "faultType": "Link Down",
+    "dateTime": "2024-05-19", 
+    "severity": "Critical",
+    "impact": "Complete loss of connectivity for affected devices",
+    "status": "Resolved",
+    "estimatedRepairTime": "1 hour (actual)", 
+    "rootCause": "Hardware malfunction (identified)", 
+    "notes": "Issue resolved by replacing faulty component"
+  },
+  {
+    "CustomerID": 1004,
+    "ContractType": "Postpaid",
+    "MARDollars": 50,
+    "TenureMonths": 24,
+    "DataUsageGB": 8,
+    "Churn": "No",
+    "packet": "GencOl-6" ,
+    "minutes": "256",
+    "balance": 6.60,
+    "autoRenewal": true,  "deviceName": "Fiber Optic Cable FIBER-001",
+    "faultType": "Low Signal Strength",
+    "dateTime": "2024-05-19", 
+    "severity": "Medium",
+    "impact": "Slower data transfer speeds, potential outages",
+    "status": "Resolved",
+    "estimatedRepairTime": "4 hours (actual)", 
+    "rootCause": "Cable damage (repaired)", 
+    "notes": "Fault identified through monitoring tools, cable repaired"
+  
+  },
+  {
+    "CustomerID": 1005,
+    "ContractType": "Prepaid",
+    "MARDollars": 30,
+    "TenureMonths": 18,
+    "DataUsageGB": 5,
+    "Churn": "No",
+    "packet": "GencOl-9" ,
+    "minutes": "256",
+    "balance": 3.00,
+    "autoRenewal": true,  "deviceName": "Customer CPE-1234",
+    "faultType": "Low Signal Strength",
+    "dateTime": "2024-05-19", 
+    "severity": "Medium",
+    "impact": "Reduced internet speeds, potential connection drops",
+    "status": "Active",
+    "estimatedRepairTime": "N/A (ongoing investigation)", 
+    "rootCause": "N/A (investigating potential interference)", 
+    "notes": "Customer reported slow internet speeds"
+  },
+  {
+    "CustomerID": 1006,
+    "ContractType": "Prepaid",
+    "MARDollars": 90,
+    "TenureMonths": 48,
+    "DataUsageGB": 20,
+    "Churn": "No",
+    "packet": "GencOl-3" ,
+    "minutes": "256",
+    "balance": 3.00,
+    "autoRenewal": true,
+    "deviceName": "Server SVR-007",
+    "faultType": "Disk Failure",
+    "dateTime": "2024-05-19", 
+    "severity": "Critical",
+    "impact": "Potential service outages, data loss risk",
+    "status": "Active",
+    "estimatedRepairTime": "4 hours (estimated)", 
+    "rootCause": "N/A (undergoing diagnostics)", 
+    "notes": "Disk monitoring system detected a failing drive"
+  
+  
+  
+  },
+  {
+    "CustomerID": 1007,
+    "ContractType": "Prepaid",
+    "MARDollars": 10,
+    "TenureMonths": 6,
+    "DataUsageGB": 0.5,
+    "Churn": "Yes",
+    "packet": "GencOl-6" ,
+    "minutes": "256",
+    "balance": 3.00,
+    "autoRenewal": true,
+    "deviceName": "Firewall FW-999",
+    "faultType": "Security Alert",
+    "dateTime": "2024-05-19", 
+    "severity": "High",
+    "impact": "Potential unauthorized access attempts",
+      "status": "Active",
+      "estimatedRepairTime": "1 hour (estimated)", 
+      "rootCause": "N/A (investigating suspicious activity)", 
+      "notes": "Security system flagged a potential intrusion attempt"
+  },
+  {
+    "CustomerID": 1008,
+    "ContractType": "Prepaid",
+    "MARDollars": 60,
+    "TenureMonths": 30,
+    "DataUsageGB": 12,
+    "Churn": "No",
+    "packet": "GencOl-3" ,
+    "minutes": "256",
+    "balance": 5.50,
+    "autoRenewal": true,
+    "deviceName": "Voice Gateway VG-100",
+    "faultType": "High Call Dropping Rate",
+    "dateTime": "2024-05-19 ", 
+    "severity": "High",
+    "impact": "Frequent call interruptions for customers",
+    "status": "Active",
+    "estimatedRepairTime": "2 hours (estimated)", 
+    "rootCause": "N/A (investigating network congestion)", 
+    "notes": "Customer service reports increased call drop complaints"
+  },
+  {
+    "CustomerID": 1009,
+    "ContractType": "Prepaid",
+    "MARDollars": 20,
+    "TenureMonths": 15,
+    "DataUsageGB": 2,
+    "Churn": "No",
+    "packet": "GencOl-6" ,
+    "minutes": "256",
+    "balance": 12.00,
+    "autoRenewal": true,
+    "deviceName": "Customer CPE-5678",
+    "faultType": "No Dial Tone",
+    "dateTime": "2024-05-19", 
+    "severity": "High",
+    "impact": "Customers unable to make outgoing calls",
+    "status": "Resolved",
+    "estimatedRepairTime": "30 minutes (actual)", 
+    "rootCause": "Line provisioning error (corrected)", 
+    "notes": "Customer reported no dial tone, issue resolved through re-provisioning"
+
+  },
+  {
+    "CustomerID": 1010,
+    "ContractType": "Postpaid",
+    "MARDollars": 45,
+    "TenureMonths": 21,
+    "DataUsageGB": 6,
+    "Churn": "No",
+    "packet": "GencOl-6" ,
+    "minutes": "256",
+    "balance": 3.00,
+    "autoRenewal": true,
+    "deviceName": "Router RTR-202",
+    "faultType": "Power Supply Failure",
+    "dateTime": "2024-05-19", 
+    "severity": "Critical",
+    "impact": "Complete loss of internet connectivity for affected devices",
+    "status": "Resolved",
+    "estimatedRepairTime": "1 hour (actual)", 
+    "rootCause": "Hardware malfunction (replaced)", 
+    "notes": "Network monitoring identified device outage, power supply replaced"
+  },
+  {
+    "CustomerID": 1011,
+    "ContractType": "Prepaid",
+    "MARDollars": 40,
+    "TenureMonths": 8,
+    "DataUsageGB": 8,
+    "Churn": "No",
+    "packet": "GencOl-3" ,
+    "minutes": "256",
+    "balance": 8.00,
+    "autoRenewal": true,
+    "deviceName": "Backbone Network",
+    "faultType": "Fiber Optic Cable Cut",
+    "dateTime": "2024-05-19", 
+    "severity": "Critical",
+    "impact": "Widespread service outages for multiple customers",
+    "status": "Resolved",
+    "estimatedRepairTime": "8 hours (actual)", 
+    "rootCause": "Third-party construction accident (repaired)", 
+    "notes": "Outage reported, identified as fiber optic cable cut, repairs coordinated"
+  },
+  {
+    "CustomerID": 1012,
+    "ContractType": "Postpaid",
+    "MARDollars": 35,
+    "TenureMonths": 6,
+    "DataUsageGB": 3,
+    "Churn": "Yes",
+    "packet": "GencOl-9" ,
+    "minutes": "256",
+    "balance": 7.50,
+    "autoRenewal": true,
+    "deviceName": "Customer CPE-9012",
+    "faultType": "Incorrect Service Configuration",
+    "dateTime": "2024-05-19", 
+    "severity": "Medium",
+    "impact": "Customer not receiving subscribed services",
+    "status": "Resolved",
+    "estimatedRepairTime": "1 hour (actual)", 
+    "rootCause": "Human error during service activation (corrected)", 
+    "notes": "Customer reported missing channels, configuration corrected"
+  },
+  {
+    "CustomerID": 1013,
+    "ContractType": "Prepaid",
+    "MARDollars": 65,
+    "TenureMonths": 20,
+    "DataUsageGB": 18,
+    "Churn": "No",
+    "packet": "GencOl-3" ,
+    "minutes": "256",
+    "balance": 6.50,
+    "autoRenewal": true,
+    "deviceName": "DNS Server DNS-01",
+    "faultType": "High CPU Usage",
+    "dateTime": "2024-05-19", 
+    "severity": "High",
+    "impact": "Slow website loading times, potential service disruptions",
+    "status": "Active",
+    "estimatedRepairTime": "N/A (under investigation)", 
+    "rootCause": "N/A (investigating potential traffic surge)", 
+    "notes": "Monitoring system identified high CPU load on DNS server"
+  },
+  {
+    "CustomerID": 1014,
+    "ContractType": "Postpaid",
+    "MARDollars": 100,
+    "TenureMonths": 60,
+    "DataUsageGB": 25,
+    "Churn": "No",
+    "packet": "GencOl-6" ,
+    "minutes": "256",
+    "balance": 0,
+    "autoRenewal": true,
+    "deviceName": "Microwave Link MWNK-Link1",
+    "faultType": "Line of Sight Obstruction",
+    "dateTime": "2024-05-19", 
+    "severity": "Critical",
+    "impact": "Loss of connectivity for remote network sites",
+    "status": "Active",
+    "estimatedRepairTime": "4 hours (estimated)", 
+    "rootCause": "N/A (investigating potential weather interference)", 
+    "notes": "Alert triggered due to loss of signal on microwave link"
+  },
+  {
+    "CustomerID": 1015,
+    "ContractType": "Postpaid",
+    "MARDollars": 100,
+    "TenureMonths": 60,
+    "DataUsageGB": 25,
+    "Churn": "No",
+    "packet": "GencOl-6" ,
+    "minutes": "256",
+    "balance": 0,
+    "autoRenewal": true,
+    "deviceName": "Microwave Link MWNK-Link1",
+    "faultType": "Line of Sight Obstruction",
+    "dateTime": "2024-05-19", 
+    "severity": "Critical",
+    "impact": "Loss of connectivity for remote network sites",
+    "status": "Active",
+    "estimatedRepairTime": "4 hours (estimated)", 
+    "rootCause": "N/A (investigating potential weather interference)", 
+    "notes": "Alert triggered due to loss of signal on microwave link"
+  },
+  {
+    "balance": 1.62,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-08-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 6.08,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 4.58,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 4.34,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 3.83,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 1.31,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 8.96,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 6.87,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 2.66,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 2.02,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 0.37,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 3.47,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-01-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 1.91,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-07-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 2.49,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 4.73,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-04-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 2.97,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 5.9,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 3.07,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 0.29,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 5.26,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-06-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 6.75,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 4.66,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 6.02,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 6.93,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-10-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 4.3,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-04-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 0.88,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 2.29,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-07-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 6.04,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-05-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 9.95,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 6.29,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-05-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 5.71,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-04-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 0.99,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 6.38,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 1.89,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-10-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 2.7,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-08-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 0.39,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 4.82,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 3.76,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 9.14,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-05-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 7.82,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-04-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 8.56,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 6.79,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 5.77,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 3.69,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-04-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 3.32,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 9.4,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 5.78,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 9.11,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 1.0,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 3.71,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 0.43,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 7.14,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-01-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 6.38,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-10-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 8.22,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-06-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 0.44,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 4.98,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 5.86,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 8.08,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-08-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 8.57,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 3.27,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-01-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 6.36,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 3.91,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 1.57,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 0.23,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 6.66,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-02-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 4.15,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 1.45,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 7.88,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 7.87,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 0.33,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 9.22,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-07-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 6.6,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 3.91,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 8.86,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 9.7,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 0.62,
+    "packet": "GencOl-3",
+    "severity": "Critical",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 5.02,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 8.5,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 2.93,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-07-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 0.12,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 1.19,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-07-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 2.53,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-02-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 2.99,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 5.97,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-09-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 3.95,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-07-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 9.53,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 1.15,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 9.36,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 3.95,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 2.86,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-01-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 1.88,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 3.09,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 4.21,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 6.43,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-06-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 4.76,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 5.91,
+    "packet": "GencOl-3",
+    "severity": "Critical",
+    "status": "Active",
+    "dateTime": "2024-05-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 5.31,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 3.66,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-07-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 0.18,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 6.39,
+    "packet": "GencOl-9",
+    "severity": "Critical",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 6.51,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 3.68,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 9.99,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 8.16,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 1.78,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 5.6,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-02-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 7.84,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 9.69,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-08-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 6.34,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 9.68,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 0.72,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 8.72,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 0.38,
+    "packet": "GencOl-6",
+    "severity": "Critical",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 4.2,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 5.57,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 5.52,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 7.01,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 1.76,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 8.97,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 0.78,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 9.2,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 9.17,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-06-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 3.92,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 7.53,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-02-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 7.19,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 5.74,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 2.44,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 6.18,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 7.53,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-04-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 1.79,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-08-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 2.73,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 3.04,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 4.95,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 3.08,
+    "packet": "GencOl-3",
+    "severity": "Critical",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 3.81,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 5.6,
+    "packet": "GencOl-6",
+    "severity": "Critical",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 4.45,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 5.52,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 5.41,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 9.91,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 7.46,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-09-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 3.38,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 3.56,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 3.53,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 1.19,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-10-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 2.54,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 0.22,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-07-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 1.82,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 7.91,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 6.28,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-01-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 7.47,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 6.37,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 9.1,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 8.72,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 0.11,
+    "packet": "GencOl-9",
+    "severity": "Critical",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 9.43,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 4.09,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 3.06,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 1.58,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 6.63,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 0.72,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 0.76,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 2.9,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 3.39,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 2.66,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 4.04,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 5.44,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 9.17,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-09-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 2.25,
+    "packet": "GencOl-3",
+    "severity": "Critical",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 9.95,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 2.69,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 3.54,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-09-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 4.94,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-05-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 9.15,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 7.76,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 8.48,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-03-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 4.11,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 0.63,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-01-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 3.42,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-10-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 9.45,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 4.02,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 1.32,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-03-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 9.03,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-08-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 4.67,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 2.22,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 6.82,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 5.84,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 2.03,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 0.12,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 0.36,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 0.08,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 3.78,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 7.22,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 1.34,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 2.73,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 8.48,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 6.28,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 8.65,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 5.0,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 7.71,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 6.27,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 4.11,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 9.98,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 3.4,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 4.87,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 9.05,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 7.79,
+    "packet": "GencOl-6",
+    "severity": "Critical",
+    "status": "Active",
+    "dateTime": "2024-08-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 6.16,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 0.27,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 5.02,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 6.7,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 8.1,
+    "packet": "GencOl-6",
+    "severity": "Critical",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 5.9,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 2.17,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 0.63,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 0.5,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 7.26,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-02-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 8.8,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 2.32,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 1.34,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 9.11,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 1.53,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 4.57,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 9.43,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-03-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 9.81,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-07-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 0.95,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-07-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 3.93,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 1.54,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-04-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 3.41,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 9.79,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-10-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 0.38,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 5.48,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 7.54,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-01-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 2.38,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 8.76,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-07-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 7.13,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-02-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 2.81,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 2.76,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 6.56,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 7.63,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 6.89,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 7.22,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-06-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 7.1,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 2.43,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 8.77,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 4.97,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 6.89,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 4.53,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 0.88,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 0.32,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 8.26,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 5.04,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 4.64,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-10-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 8.6,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 1.98,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 5.31,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 2.65,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 4.27,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 9.36,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 7.12,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-01-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 1.26,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 1.0,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 9.59,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-06-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 9.73,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-04-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 1.25,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 9.61,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 7.06,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 5.09,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-04-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 9.07,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-04-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 4.62,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 4.45,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 3.6,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 4.0,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 6.23,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 3.1,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 0.57,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 0.18,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-07-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 0.75,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 4.56,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 2.03,
+    "packet": "GencOl-3",
+    "severity": "Critical",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 0.76,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-01-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 4.09,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-10-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 3.19,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 5.89,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 3.81,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-10-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 8.12,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 3.25,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 0.08,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-09-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 2.85,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-07-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 8.71,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 0.78,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-04-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 8.57,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 6.93,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 2.45,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 2.9,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 4.04,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 6.92,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 4.54,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 2.43,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 4.86,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 6.61,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-04-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 8.92,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 6.66,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 2.32,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 3.45,
+    "packet": "GencOl-3",
+    "severity": "Critical",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 5.66,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 2.72,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 2.28,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 4.39,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 5.61,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 0.28,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 3.72,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 3.46,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 2.5,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 8.31,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 5.77,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-04-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 2.95,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 4.53,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 3.71,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 4.47,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 0.76,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 1.29,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 2.86,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 1.35,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 5.09,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 4.86,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 7.28,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 2.67,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 4.73,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 3.15,
+    "packet": "GencOl-9",
+    "severity": "Critical",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 4.26,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 0.49,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 2.77,
+    "packet": "GencOl-3",
+    "severity": "Critical",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 7.78,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 5.49,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 3.4,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 6.61,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 8.59,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-01-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 3.24,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 8.72,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 8.83,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 9.41,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 2.88,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 9.83,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 6.15,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 9.73,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 7.84,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 5.09,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-07-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 0.05,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 6.74,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 0.53,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-06-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 0.61,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 7.9,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 7.38,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-07-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 9.57,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 1.64,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 3.9,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 5.36,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 7.74,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 7.18,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-06-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 1.32,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-01-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 8.39,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 1.03,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 8.95,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 9.21,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 3.49,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 6.12,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 0.83,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 3.49,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 3.81,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 4.74,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 1.77,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 7.46,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 5.24,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 6.72,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 8.31,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-07-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 2.64,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 8.5,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-04-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 6.17,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 2.95,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 0.41,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-07-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 4.8,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 1.73,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-10-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 4.52,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 0.42,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 8.25,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 9.79,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 8.85,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-06-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 5.47,
+    "packet": "GencOl-3",
+    "severity": "Critical",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 5.83,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 6.27,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-04-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 7.46,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 2.7,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 7.32,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 6.15,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 7.01,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 9.81,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-01-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 9.49,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 1.3,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 2.06,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 9.34,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 1.21,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-09-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 3.44,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 0.39,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 0.82,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 3.04,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 1.04,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-01-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 8.7,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-08-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 4.55,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 1.55,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 1.13,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 6.74,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-06-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 1.93,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 9.64,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 6.97,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 7.22,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 4.97,
+    "packet": "GencOl-9",
+    "severity": "Critical",
+    "status": "Active",
+    "dateTime": "2024-03-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 9.96,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-09-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 4.63,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 2.96,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 8.27,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 6.4,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 1.74,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-05-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 4.65,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 3.56,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 5.28,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 9.96,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 5.42,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-01-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 2.34,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 1.57,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 8.54,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-04-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 5.52,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 9.13,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-09-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 8.86,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 4.27,
+    "packet": "GencOl-6",
+    "severity": "Critical",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 9.49,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 6.37,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 8.73,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 5.99,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 3.42,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 1.74,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 4.37,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 9.87,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 1.79,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 3.49,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 3.21,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 5.77,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 9.94,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 9.35,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 2.14,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 2.2,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 9.56,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-08-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 0.19,
+    "packet": "GencOl-6",
+    "severity": "Critical",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 6.12,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-10-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 0.29,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 1.06,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-07-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 7.14,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 0.68,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 8.49,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-03-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 7.42,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 1.29,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 1.02,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 4.1,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 2.59,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 9.89,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 5.43,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 9.98,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 9.56,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-03-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 6.53,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 0.04,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 7.89,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 4.06,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 3.78,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 6.23,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 9.83,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 3.94,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 0.46,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-08-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 5.01,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 9.9,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 5.64,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 5.85,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 5.46,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-09-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 2.25,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 2.56,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 5.21,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 6.29,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 5.79,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 2.33,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 4.67,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 4.9,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 0.41,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-05-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 8.83,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 4.55,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 9.14,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-08-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 3.72,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 3.82,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 5.34,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 2.78,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-03-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 2.79,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 7.69,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 1.02,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 1.57,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 2.47,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 4.87,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 1.6,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 0.49,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 4.3,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 5.06,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 5.64,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-02-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 9.05,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 6.06,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 0.45,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 6.93,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 6.45,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 0.61,
+    "packet": "GencOl-3",
+    "severity": "Critical",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 4.27,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 6.24,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-08-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 8.27,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-06-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 2.08,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 0.69,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 5.94,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 6.1,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 9.76,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 6.89,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 6.23,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 1.15,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 9.74,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-09-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 6.3,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 0.35,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 7.23,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 9.96,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 9.78,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-05-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 8.87,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 8.05,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 8.73,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 8.25,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-09-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 7.27,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 5.45,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 0.76,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 8.09,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 3.94,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 8.91,
+    "packet": "GencOl-6",
+    "severity": "Critical",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 9.4,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 2.61,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 7.94,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-03-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 1.49,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 3.05,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 2.73,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 3.7,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 3.98,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 7.32,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 2.41,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 6.69,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 0.45,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 0.1,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 8.18,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 0.89,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-02-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 1.01,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 1.66,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 8.53,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 8.4,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 6.01,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 8.97,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 7.74,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 0.78,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 6.63,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 9.28,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-03-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 0.6,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 7.44,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-08-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 8.12,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 5.97,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 7.97,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 4.11,
+    "packet": "GencOl-3",
+    "severity": "Critical",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 3.26,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 2.01,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 6.88,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 9.2,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 4.19,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-10-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 8.45,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 3.84,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 1.21,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 9.27,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 6.4,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 8.11,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 0.02,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 7.85,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-05-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 9.19,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 6.01,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-05-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 0.86,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 7.25,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 8.94,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 3.27,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 8.1,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 6.96,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 8.46,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 2.73,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 4.22,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 5.19,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 7.53,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 7.97,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-05-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 2.82,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 6.01,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 5.58,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 1.03,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 1.79,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 3.24,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-08-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 1.62,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 1.19,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 5.92,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 6.04,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-09-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 5.1,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 7.87,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 0.03,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 3.81,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 4.69,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 3.12,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 9.2,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 6.76,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-05-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 0.26,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-05-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 3.79,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 6.77,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-09-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 4.23,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-06-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 9.52,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 2.31,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 4.7,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-07-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 4.26,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 5.01,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 9.19,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 4.26,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 0.6,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-06-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 2.78,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 9.92,
+    "packet": "GencOl-9",
+    "severity": "Critical",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 3.99,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 1.39,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 8.14,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 7.18,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 3.36,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 7.11,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 3.87,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 3.83,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 2.06,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 2.25,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 6.17,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 0.54,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-06-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 8.96,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 8.68,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 8.93,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 7.22,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 2.05,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 9.64,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-01-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 1.03,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 8.55,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 1.6,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 1.9,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 9.34,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-02-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 6.11,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 1.13,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 6.16,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-04-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 0.79,
+    "packet": "GencOl-3",
+    "severity": "Critical",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 7.28,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 2.09,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 0.02,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 3.39,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 6.49,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 2.53,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 3.98,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 0.56,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 5.33,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 2.79,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 5.87,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 2.58,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 5.57,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 6.23,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-09-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 1.84,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 8.0,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 8.96,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 2.66,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 1.48,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 4.66,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 1.54,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 1.31,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 8.94,
+    "packet": "GencOl-9",
+    "severity": "Critical",
+    "status": "Active",
+    "dateTime": "2024-08-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 8.26,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 0.09,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 6.45,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 6.87,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 5.04,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 9.84,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 8.56,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 0.75,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 1.88,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 3.55,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 5.14,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 3.43,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 1.41,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 2.08,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 7.48,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 0.84,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 9.36,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 6.99,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 8.15,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 4.88,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 9.83,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 2.83,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 6.76,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-07-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 5.53,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 0.74,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 2.03,
+    "packet": "GencOl-6",
+    "severity": "Critical",
+    "status": "Active",
+    "dateTime": "2024-07-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 8.49,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 6.48,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 1.96,
+    "packet": "GencOl-6",
+    "severity": "Critical",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 3.42,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 5.43,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 9.65,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 5.59,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 9.78,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-07-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 9.6,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 9.59,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 9.23,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 9.62,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 4.76,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 3.52,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 7.3,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 8.98,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 7.85,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 2.35,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 6.89,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 9.34,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-05-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 8.91,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 9.01,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 5.56,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 6.99,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 5.82,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 5.81,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-09-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 4.27,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 0.34,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 3.99,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 4.98,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 1.46,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 4.41,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 0.45,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 5.45,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 5.3,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 4.42,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-04-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 9.52,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 2.69,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 5.43,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 6.09,
+    "packet": "GencOl-3",
+    "severity": "Critical",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 1.04,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 9.0,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 8.45,
+    "packet": "GencOl-3",
+    "severity": "Critical",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 2.15,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 7.38,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 4.68,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 2.42,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-05-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 8.73,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 7.1,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 6.87,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 6.94,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 3.54,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-04-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 5.81,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 7.54,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-07-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 5.92,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 4.84,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 3.53,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-07-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 9.04,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 3.68,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 8.75,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 9.3,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 2.36,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-02-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 4.32,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 4.62,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 1.28,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 2.76,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-10-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 8.23,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 5.4,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 9.93,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 5.52,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 7.41,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 2.75,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 3.08,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 4.66,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 5.38,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-08-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 6.62,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 1.21,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 6.63,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 5.34,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 0.24,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 7.97,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 1.12,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 4.65,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 6.14,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 6.03,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 8.68,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-09-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 9.76,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-01-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 7.49,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-10-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 4.36,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 8.81,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 2.39,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 7.71,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-06-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 3.71,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 8.48,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 9.26,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 3.55,
+    "packet": "GencOl-9",
+    "severity": "Critical",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 9.7,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-09-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 0.31,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-03-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 4.16,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-05-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 7.25,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 2.69,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-09-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 5.96,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 7.87,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 5.98,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-01-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 1.62,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 8.16,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-09-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 8.57,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 3.7,
+    "packet": "GencOl-3",
+    "severity": "Critical",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 5.64,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 0.95,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 2.09,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 1.84,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 2.71,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 8.25,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 2.78,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-02-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 0.07,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 6.21,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 4.05,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 6.1,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-01-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 3.28,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 7.43,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-02-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 1.83,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-09-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 9.71,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 5.14,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 1.5,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 9.16,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 4.0,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-08-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 6.0,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 3.04,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 7.89,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 3.81,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 8.59,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-02-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 9.3,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-08-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 1.41,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 4.39,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 3.48,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 3.3,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 8.92,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 5.24,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 9.95,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 1.33,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 3.79,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 3.06,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 1.52,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 8.73,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 2.91,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-05-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 5.43,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 5.14,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 1.58,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 9.99,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 9.07,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 7.43,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 2.13,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-02-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 2.13,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 8.84,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-06-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 1.94,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-04-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 9.54,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 6.85,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-07-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 4.94,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-04-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 9.16,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 9.4,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 3.72,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-03-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 6.13,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 0.31,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-05-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 6.68,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-06-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 3.49,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 7.44,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 1.05,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 8.68,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 6.77,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 5.07,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 9.78,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-04-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 6.35,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 4.93,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-02-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 7.2,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 9.19,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-08-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 2.43,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-04-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 5.53,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 4.69,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-03-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 4.55,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-09-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 7.88,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-04-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 5.69,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 4.24,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 3.97,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 6.04,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 8.76,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 4.66,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 7.69,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-07-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 1.75,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 9.88,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 8.49,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 5.18,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 7.16,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 5.43,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 1.49,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 5.66,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 3.75,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 3.18,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 9.03,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 6.89,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-06-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 2.44,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-06-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 2.75,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-02-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 4.59,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 1.58,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 0.04,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 9.69,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-01-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 9.76,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 3.48,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 1.11,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 7.55,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 4.58,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-06-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 0.48,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 7.08,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 6.81,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 3.43,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 3.89,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 9.4,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 7.48,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 9.14,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 7.28,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 2.31,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 0.69,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 1.07,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 9.1,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 7.34,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 0.12,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 5.48,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 9.44,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 6.44,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 0.43,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 0.1,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 1.18,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 4.82,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 8.25,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 9.08,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-03-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 1.87,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 3.42,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 6.12,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-10-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 7.64,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 5.45,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-08-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 5.61,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 6.49,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 9.24,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 0.38,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 3.66,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 5.82,
+    "packet": "GencOl-9",
+    "severity": "Critical",
+    "status": "Active",
+    "dateTime": "2024-05-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 9.28,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 9.37,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-02-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 7.53,
+    "packet": "GencOl-3",
+    "severity": "Critical",
+    "status": "Active",
+    "dateTime": "2024-10-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 0.86,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-04-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 6.55,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 0.22,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 4.25,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 3.63,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 7.52,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 3.39,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 4.36,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 2.16,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 1.66,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 4.51,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 4.43,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 9.38,
+    "packet": "GencOl-3",
+    "severity": "Critical",
+    "status": "Resolved",
+    "dateTime": "2024-04-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 2.15,
+    "packet": "GencOl-3",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 2.22,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-01-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 7.29,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Active",
+    "dateTime": "2024-10-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 3.02,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 3.05,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 5.46,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-09-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 1.93,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-01-19",
+    "faultType": "High Call Dropping Rate"
+  },
+  {
+    "balance": 5.11,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 3.3,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 6.29,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 8.38,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 0.65,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "Disk Failure"
+  },
+  {
+    "balance": 2.1,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Link Down"
+  },
+  {
+    "balance": 1.24,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 5.11,
+    "packet": "GencOl-6",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Power Supply Failure"
+  },
+  {
+    "balance": 1.52,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 2.38,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-09-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 0.88,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 4.42,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-07-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 6.41,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Security Alert"
+  },
+  {
+    "balance": 8.08,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "High CPU Usage"
+  },
+  {
+    "balance": 8.55,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Fiber Optic Cable Cut"
+  },
+  {
+    "balance": 4.48,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-05-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 1.52,
+    "packet": "GencOl-9",
+    "severity": "Critical",
+    "status": "Resolved",
+    "dateTime": "2024-02-19",
+    "faultType": "Incorrect Service Configuration"
+  },
+  {
+    "balance": 1.06,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Signal Degradation"
+  },
+  {
+    "balance": 5.47,
+    "packet": "GencOl-9",
+    "severity": "High",
+    "status": "Resolved",
+    "dateTime": "2024-08-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 2.33,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-06-19",
+    "faultType": "Low Signal Strength"
+  },
+  {
+    "balance": 1.3,
+    "packet": "GencOl-9",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-01-19",
+    "faultType": "Line of Sight Obstruction"
+  },
+  {
+    "balance": 6.24,
+    "packet": "GencOl-6",
+    "severity": "Medium",
+    "status": "Active",
+    "dateTime": "2024-03-19",
+    "faultType": "No Dial Tone"
+  },
+  {
+    "balance": 4.13,
+    "packet": "GencOl-3",
+    "severity": "Medium",
+    "status": "Resolved",
+    "dateTime": "2024-03-19",
+    "faultType": "Security Alert"
+  }
+]
