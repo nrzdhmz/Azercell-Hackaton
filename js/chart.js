@@ -1,6 +1,5 @@
 import customerData from '../data.json' with {type: 'json'};
 
-// console.log(customerData);
 function countSeverityByDate(customers) {
   const countsByDate = {};
   
