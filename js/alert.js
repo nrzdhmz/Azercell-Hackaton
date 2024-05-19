@@ -38,7 +38,7 @@ const barColors = [
   "#2b5797"
 ];
 
-new Chart("myChart", {
+new Chart("myChartsecond", {
   type: "doughnut",
   data: {
     labels: xcValues,

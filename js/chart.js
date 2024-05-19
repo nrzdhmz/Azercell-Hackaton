@@ -32,14 +32,12 @@ function countSeverityByDate(customers) {
   return countsArray;
 }
 
-const a = countSeverityByDate(customerData); // Assuming customerData is correctly parsed and available
+const a = countSeverityByDate(customerData); 
 
 const xValues = [
   "2024-01-19", "2024-02-19", "2024-03-19", "2024-04-19", "2024-05-19","2024-06-19", "2024-07-19", "2024-08-19", "2024-09-19", "2024-10-19"
 ];
 
-// Verify 'a' array structure and length
-// console.log(a);
 
 new Chart("myChart", {
   type: "line",
@@ -72,6 +70,7 @@ new Chart("myChart", {
 const checkboxes = document.querySelectorAll('.listItem');
 const tableComponents = document.querySelectorAll('.tableComponent');
 const dashboard = document.querySelector('.dashboard');
+const right = document.querySelector('.right');
 const tableContent = document.querySelector('#tableContent');
 const search = document.querySelector(".search");
 
@@ -82,9 +81,11 @@ function filterTableComponents() {
 
   if (checkedIds.length === 0) {
     dashboard.style.display = 'block';
+    right.style.display = 'block';
     tableContent.style.display = 'none';
   } else {
     dashboard.style.display = 'none';
+    right.style.display = 'none';
     tableContent.style.display = 'flex';
     tableComponents.forEach(component => {
       if (checkedIds.includes(component.classList[1])) {
