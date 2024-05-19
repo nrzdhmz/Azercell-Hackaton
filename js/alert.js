@@ -54,5 +54,3 @@ new Chart("myChartsecond", {
     }
   }
 });
-
-

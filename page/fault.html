@@ -7,6 +7,7 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/scss/index.css">
+  <link rel="icon" href="../assets/img/icon.png">
   <title>Fault</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
     <nav>
       <ul>
         <li><a href="./home.html">Home</a></li>
-        <li><a href="./dataset.html">Tarifs</a></li>
+        <li><a href="./packages.html">Packages</a></li>
         <li><a href="./fault.html">Faults</a></li>
       </ul>
     </nav>
@@ -24,6 +25,25 @@
     <div class="charts margintop">
       <div data-aos="fade-right" data-aos-offset="200" data-aos-duration="1000" data-aos-easing="ease-out-back" id="piechart_3d" style="width: 40%; height: 380px;"></div>
       <canvas data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000" data-aos-easing="ease-out-back" class="faultChart" id="myChart" style="width:60%;max-width:600px"></canvas>
+    </div>
+    <div class="buttons">
+      <button class="btn">Signal Degradation</button>
+      <button class="btn">Link Down</button>
+      <button class="btn">Low Signal Strength</button>
+      <button class="btn">Disk Failure</button>
+      <button class="btn">Security Alert</button>
+      <button class="btn">High Call Dropping Rate</button>
+      <button class="btn">No Dial Tone</button>
+      <button class="btn">Power Supply Failure</button>
+      <button class="btn">Fiber Optic Cable Cut</button>
+      <button class="btn">Incorrect Service Configuration</button>
+      <button class="btn">High CPU Usage</button>
+      <button class="btn">Line of Sight Obstruction</button>
+    </div>
+    <div class="faultContainer">
+      <div class="faults">
+        <canvas id="myChart3"></canvas>
+      </div>
     </div>
     <div class="tables marginbottom">
       <div id="tableContent">
@@ -70,5 +90,7 @@
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
   <script type="module" src="../js/main.js"></script>
+  <script type="module" src="../js/animation.js"></script>
+  <script type="module" src="../js/faulChart.js"></script>
 </body>
 </html>

@@ -1,0 +1,51 @@
+@keyframes shake {
+  0% {
+    transform: rotate(-0.3deg);
+  }
+  50% {
+    transform: rotate(0.3deg);
+  }
+  100% {
+    transform: rotate(-0.3deg);
+  }
+}
+
+.buttons {
+  margin: 100px auto;
+  width: 100%;
+  padding: 0 100px;
+  height: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.buttons .btn {
+  cursor: pointer;
+  color: #d8d8d8;
+  min-width: 200px;
+  align-items: center;
+  text-align: center;
+  border: none;
+  height: 100%;
+  background-color: #445596;
+  border-radius: 3px;
+  animation: shake 0.3s infinite;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.faultContainer{
+  display: flex;
+  justify-content: center;
+  .faults{
+    background-color: white;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+#myChart3{
+  height: 450px!important;
+  width: 100%!important;
+}

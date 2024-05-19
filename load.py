@@ -154,7 +154,7 @@ def append_data_continuously():
     data = generate_initial_data()
     
     while True:
-        time.sleep(10)
+        time.sleep(30)
         new_customer_data = generate_customer_data()
         data.append(new_customer_data)
         with open('data.json', 'w') as f:
