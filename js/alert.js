@@ -1,4 +1,4 @@
-import customerData from './data.json' with {type: 'json'};
+import customerData from '../data.json' with {type: 'json'};
 
 function countActiveFaultsBySeverity(faults) {
   let counts = {

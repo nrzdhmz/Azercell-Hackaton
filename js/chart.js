@@ -1,6 +1,6 @@
-import customerData from './data.json' with {type: 'json'};
+import customerData from '../data.json' with {type: 'json'};
 
-
+// console.log(customerData);
 function countSeverityByDate(customers) {
   const countsByDate = {};
   
@@ -31,50 +31,61 @@ function countSeverityByDate(customers) {
   
   return countsArray;
 }
-const a = countSeverityByDate(customerData);
+
+const a = countSeverityByDate(customerData); // Assuming customerData is correctly parsed and available
 
 const xValues = [
-  "2024-01-19", "2024-02-19", "2024-03-19", "2024-04-19", "2024-05-19",
-  "2024-06-19", "2024-07-19", "2024-08-19", "2024-09-19", "2024-10-19"
+  "2024-01-19", "2024-02-19", "2024-03-19", "2024-04-19", "2024-05-19","2024-06-19", "2024-07-19", "2024-08-19", "2024-09-19", "2024-10-19"
 ];
+
+// Verify 'a' array structure and length
+// console.log(a);
 
 new Chart("myChart", {
   type: "line",
   data: {
     labels: xValues,
     datasets: [{ 
-      data: [a[1].medium,a[2].medium,a[3].medium,a[4].medium,a[5].medium,a[6].medium,a[7].medium,a[8].medium,a[9].medium,a[10].medium],
+      label: 'Medium',
+      data: a.map(item => item.medium),
       borderColor: "red",
       fill: false
     }, { 
-      data: [a[1].high,a[2].high,a[3].high,a[4].high,a[5].high,a[6].high,a[7].high,a[8].high,a[9].high,a[10].high],
+      label: 'High',
+      data: a.map(item => item.high),
       borderColor: "green",
       fill: false
     }, { 
-      data: [a[1].critical,a[2].critical,a[3].critical,a[4].critical,a[5].critical,a[6].critical,a[7].critical,a[8].critical,a[9].critical,a[10].critical],
+      label: 'Critical',
+      data: a.map(item => item.critical),
       borderColor: "blue",
       fill: false
     }]
   },
   options: {
-    legend: {display: false}
+    legend: {display: true}
   }
 });
+
+
 
 const checkboxes = document.querySelectorAll('.listItem');
 const tableComponents = document.querySelectorAll('.tableComponent');
 const dashboard = document.querySelector('.dashboard');
 const tableContent = document.querySelector('#tableContent');
+const search = document.querySelector(".search");
+
 function filterTableComponents() {
   const checkedIds = Array.from(checkboxes)
     .filter(checkbox => checkbox.checked)
     .map(checkbox => checkbox.id);
+
   if (checkedIds.length === 0) {
     dashboard.style.display = 'block';
     tableContent.style.display = 'none';
   } else {
     dashboard.style.display = 'none';
-    tableContent.style.display = 'block';
+    tableContent.style.display = 'flex';
     tableComponents.forEach(component => {
       if (checkedIds.includes(component.classList[1])) {
         component.style.display = 'block'; 
@@ -84,14 +95,40 @@ function filterTableComponents() {
     });
   }
 }
+
+function filterListItems(searchTerm) {
+  const searchFirstChar = searchTerm.charAt(0).toLowerCase();
+
+  checkboxes.forEach(checkbox => {
+    const label = checkbox.nextElementSibling.textContent.toLowerCase();
+    const checkboxId = checkbox.id.toLowerCase();
+    if (checkboxId.startsWith(searchFirstChar) || label.startsWith(searchTerm.toLowerCase())) {
+      checkbox.parentElement.style.display = 'block';
+    } else {
+      checkbox.parentElement.style.display = 'none';
+    }
+  });
+}
+
+search.addEventListener('input', function() {
+  const searchTerm = this.value.trim();
+  if (searchTerm.length > 0) {
+    filterListItems(searchTerm);
+  } else {
+    checkboxes.forEach(checkbox => {
+      checkbox.parentElement.style.display = 'block';
+    });
+  }
+});
+
 checkboxes.forEach(checkbox => {
   checkbox.addEventListener('change', filterTableComponents);
 });
+
 filterTableComponents();
 
-
-let keys = ["CustomerID", "balance", "status", "packet", "dateTime", "faultType"];
-
+// Populate table with customerData
+const keys = ["CustomerID", "balance", "status", "packet", "dateTime", "faultType", "ContractType", "severity", "DataUsageGB", "Churn","minutes","autoRenewal"];
 
 customerData.forEach(customer => {
   keys.forEach(key => {
@@ -101,11 +138,9 @@ customerData.forEach(customer => {
       if (infoElements.length < 15) {
         const infoDiv = document.createElement('div');
         infoDiv.className = 'info';
-        infoDiv.textContent = customer[key];
+        infoDiv.textContent = customer[key]; // Populate the value from customerData
         columnDiv.appendChild(infoDiv);
       }
     }
   });
 });
-
-

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/scss/index.css">
+  <title>Fault Management System</title>
+</head>
+<body>
+  <header>
+    <h1>Fault Management Program</h1>
+    <nav>
+      <ul>
+        <li><a href="./home.html">Home</a></li>
+        <li><a href="./dataset.html">Tarifs</a></li>
+        <li><a href="./fault.html">Faults</a></li>
+        <li><a href="./alert.html">Alert</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="hero">
+    <div class="aside">
+        <input class="search" placeholder="Search"></input>
+        <div class="list">
+          <div>
+            <input type="checkbox" id="balance" class="listItem">
+            <label for="balance">balance</label>
+          </div>
+          <div>
+            <input type="checkbox" id="status" class="listItem">
+            <label for="status">status</label>
+          </div>
+          <div>
+            <input type="checkbox" id="packet" class="listItem">
+            <label for="packet">packet</label>
+          </div>
+          <div>
+            <input type="checkbox" id="dateTime" class="listItem">
+            <label for="dateTime">dateTime</label>
+          </div>
+          <div>
+            <input type="checkbox" id="faultType" class="listItem">
+            <label for="faultType">faultType</label>
+          </div>
+          <div>
+            <input type="checkbox" id="ContractType" class="listItem">
+            <label for="ContractType">ContractType</label>
+          </div>
+          <div>
+            <input type="checkbox" id="severity" class="listItem">
+            <label for="severity">severity</label>
+          </div>
+          <div>
+            <input type="checkbox" id="DataUsageGB" class="listItem">
+            <label for="DataUsageGB">DataUsageGB</label>
+          </div>
+          <div>
+            <input type="checkbox" id="Churn" class="listItem">
+            <label for="Churn">Churn</label>
+          </div>
+          <div>
+            <input type="checkbox" id="minutes" class="listItem">
+            <label for="minutes">minutes</label>
+          </div>
+          <div>
+            <input type="checkbox" id="autoRenewal" class="listItem">
+            <label for="autoRenewal">autoRenewal</label>
+          </div>
+        </div>
+      </div>
+    <div id="tableContent">
+      <h3>Currently Running Processes</h3>
+      <div class="logEventTable">
+        <div class="tableComponent CustomerID">
+          <div class="head">CustomerID</div>
+        </div>
+        <div class="tableComponent balance">
+          <div class="head">balance</div>
+        </div>
+        <div class="tableComponent status">
+          <div class="head">status</div>
+        </div>
+        <div class="tableComponent packet">
+          <div class="head">Packet</div>
+        </div>
+        <div class="tableComponent dateTime">
+          <div class="head">dateTime</div>
+        </div>
+        <div class="tableComponent faultType">
+          <div class="head">faultType</div>
+        </div>
+        <div class="tableComponent ContractType">
+          <div class="head">ContractType</div>
+        </div>
+        <div class="tableComponent DataUsageGB">
+          <div class="head">DataUsageGB</div>
+        </div>
+        <div class="tableComponent severity">
+          <div class="head">severity</div>
+        </div>
+        <div class="tableComponent Churn">
+          <div class="head">Churn</div>
+        </div>
+        <div class="tableComponent minutes">
+          <div class="head">minutes</div>
+        </div>
+        <div class="tableComponent autoRenewal">
+          <div class="head">autoRenewal</div>
+        </div>
+      </div>
+    </div>
+    <div class="dashboard" style="display: none;">
+      <div class="dashboardTop">DASHBOARD</div>
+      <div class="dashboardContent">
+        <canvas id="myChart" style="height: 400px; width: 900px"></canvas>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+  <script type="module" src="../js/chart.js"></script>
+</body>
+</html>

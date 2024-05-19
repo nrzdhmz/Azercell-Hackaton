@@ -13,7 +13,7 @@
     <h1>Faults</h1>
     <nav>
       <ul>
-        <li><a href="./index.html">Home</a></li>
+        <li><a href="./home.html">Home</a></li>
         <li><a href="./dataset.html">Tarifs</a></li>
         <li><a href="./fault.html">Faults</a></li>
         <li><a href="./alert.html">Alert</a></li>
@@ -25,8 +25,14 @@
       <div id="piechart_3d" style="width: 40%; height: 380px;"></div>
       <canvas class="faultChart" id="myChart" style="width:60%;max-width:600px"></canvas>
     </div>
-    <div class="tables">
+    <div class="tables marginbottom">
       <div id="tableContent">
+        <div class="searchTool">
+          <input id="searchInput" placeholder="find using {key:value}" class="search"></input>
+          <div class="objectCount">0</div>
+          <button class="find">Find</button>
+        </div>
+        <textarea id="jsonResult" rows="10" cols="80" readonly></textarea>
         <h3>Currently Running Processes</h3>
         <div class="logEventTable">
           <div class="tableComponent CustomerID">
@@ -59,6 +65,6 @@
   </section>
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
-  <script type="module" src="../assets/js/main.js"></script>
+  <script type="module" src="../js/main.js"></script>
 </body>
 </html>
