@@ -123,9 +123,6 @@
     "estimatedRepairTime": "4 hours (estimated)", 
     "rootCause": "N/A (undergoing diagnostics)", 
     "notes": "Disk monitoring system detected a failing drive"
-  
-  
-  
   },
   {
     "CustomerID": 1007,
@@ -143,10 +140,10 @@
     "dateTime": "2024-05-19", 
     "severity": "High",
     "impact": "Potential unauthorized access attempts",
-      "status": "Active",
-      "estimatedRepairTime": "1 hour (estimated)", 
-      "rootCause": "N/A (investigating suspicious activity)", 
-      "notes": "Security system flagged a potential intrusion attempt"
+    "status": "Active",
+    "estimatedRepairTime": "1 hour (estimated)", 
+    "rootCause": "N/A (investigating suspicious activity)", 
+    "notes": "Security system flagged a potential intrusion attempt"
   },
   {
     "CustomerID": 1008,

@@ -7,7 +7,6 @@ function countActiveFaultsBySeverity(faults) {
     "Critical": 0
   };
 
-  // Iterate through each fault object
   faults.forEach(fault => {
     if (fault.status === "Active") {
       switch (fault.severity) {
@@ -20,9 +19,6 @@ function countActiveFaultsBySeverity(faults) {
         case "Critical":
           counts.Critical++;
           break;
-        default:
-          // Handle any other severity levels if needed
-          break;
       }
     }
   });
@@ -30,7 +26,6 @@ function countActiveFaultsBySeverity(faults) {
   return counts;
 }
 
-// Count active faults by severity
 let activeFaultCounts = countActiveFaultsBySeverity(customerData);
 console.log(activeFaultCounts);
 

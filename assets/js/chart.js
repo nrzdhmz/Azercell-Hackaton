@@ -51,7 +51,7 @@ new Chart("myChart", {
       borderColor: "green",
       fill: false
     }, { 
-      data: [8,7,4,6,2,3,2,4,3,2],
+      data: [a[1].critical,a[2].critical,a[3].critical,a[4].critical,a[5].critical,a[6].critical,a[7].critical,a[8].critical,a[9].critical,a[10].critical],
       borderColor: "blue",
       fill: false
     }]
